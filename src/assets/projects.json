@@ -4,7 +4,7 @@
     "description": "Yes, you're already here! This portfolio you're exploring is a project in itself, built with React and Tailwind, and it's designed to showcase some of my other work.",
     "src": "project-images/this_portfolio.jpeg",
     "alt": "Portfolio",
-    "repoURL": "https://github.com/JerryChas/Portfolio",
+    "repoURL": "https://github.com/JerRoyDev/Portfolio",
     "pageURL": "/",
     "status": "complete",
     "tools": [
@@ -39,7 +39,7 @@
     "description": "Our team built a Kanban board for task planning during our 'Project Methodology and Agile Methods' course, focusing on pull requests and collaborative workflows",
     "src": "project-images/aurora.png",
     "alt": "Aurora agile",
-    "repoURL": "https://github.com/JerryChas/Aurora-Agile",
+    "repoURL": "https://github.com/JerRoyDev/Aurora-Agile",
     "pageURL": "https://auroraagile.netlify.app/",
     "status": "complete",
     "tools": [
@@ -54,7 +54,7 @@
     "description": "My first React-project. A Kanban board built with React",
     "src": "project-images/kanban.jpg",
     "alt": "Kanban board",
-    "repoURL": "https://github.com/JerryChas/Kanbanboard",
+    "repoURL": "https://github.com/JerRoyDev/Kanbanboard",
     "pageURL": "https://kan-banne-board.netlify.app",
     "status": "complete",
     "tools": [
@@ -69,7 +69,7 @@
     "description": "An app where you can create and keep your notes. Developed by my team and myself in Vanilla JS",
     "src": "project-images/quire.jpeg",
     "alt": "quire",
-    "repoURL": "https://github.com/JerryChas/Quire",
+    "repoURL": "https://github.com/JerRoyDev/Quire",
     "pageURL": "https://quire-norrland.netlify.app/",
     "status": "complete",
     "tools": [
@@ -83,7 +83,7 @@
     "description": "A dashboard full of different APIs. Built with Vanilla JS.",
     "src": "project-images/Dashboard.jpeg",
     "alt": "dashboard",
-    "repoURL": "https://github.com/JerryChas/The-Dashboard",
+    "repoURL": "https://github.com/JerRoyDev/The-Dashboard",
     "pageURL": "https://my-chas-dashboard.netlify.app",
     "status": "complete",
     "tools": [
@@ -97,8 +97,8 @@
     "description": "A mortgage calculator built with Vanilla TS.",
     "src": "project-images/Mortgage_calculator.jpeg",
     "alt": "calculator",
-    "repoURL": "https://github.com/JerryChas/Labb_TypeScript---bol-nekalkylatorn",
-    "pageURL": "https://jerrychas.github.io/Labb_TypeScript---bol-nekalkylatorn",
+    "repoURL": "https://github.com/JerRoyDev/Labb_TypeScript---bol-nekalkylatorn",
+    "pageURL": "https://JerRoyDev.github.io/Labb_TypeScript---bol-nekalkylatorn",
     "status": "complete",
     "tools": [
       "typescript"
@@ -111,8 +111,8 @@
     "description": "A simple Rock Paper Scissors game built with Vanilla JS.",
     "src": "project-images/Rock_Paper_Scissors.jpeg",
     "alt": "rock paper scissors game",
-    "repoURL": "https://github.com/JerryChas/Rock-paper-scissor",
-    "pageURL": "https://jerrychas.github.io/Rock-paper-scissor",
+    "repoURL": "https://github.com/JerRoyDev/Rock-paper-scissor",
+    "pageURL": "https://JerRoyDev.github.io/Rock-paper-scissor",
     "status": "complete",
     "tools": [
       "javascript"
@@ -125,8 +125,8 @@
     "description": "My first portfolio website built with HTML and Vanilla JS",
     "src": "project-images/first_portfolio.jpg",
     "alt": "my first portfolio",
-    "repoURL": "https://github.com/JerryChas/Uppgift-2---Dynamisk-sida",
-    "pageURL": "https://jerrychas.github.io/Uppgift-2---Dynamisk-sida",
+    "repoURL": "https://github.com/JerRoyDev/Uppgift-2---Dynamisk-sida",
+    "pageURL": "https://JerRoyDev.github.io/Uppgift-2---Dynamisk-sida",
     "status": "complete",
     "tools": [
       "html",

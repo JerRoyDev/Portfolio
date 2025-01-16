@@ -27,8 +27,7 @@ const HomePage = () => {
                 <p className='text-[clamp(1rem,3vw,1.5rem)] whitespace-nowrap'>
                   <span className='font-bold text-[clamp(1.5rem,4vw,3rem)] text-accent'>
                     Software Developer
-                  </span>{' '}
-                  student
+                  </span>
                 </p>
                 <p className='font-semibold text-[clamp(1rem,3vw,1.5rem)] text-gray-700 italic'>
                   Ready to learn and contribute in any way I can.

@@ -1,0 +1,98 @@
+[
+  {
+    "title": "IT Tech and Operations",
+    "points": 10,
+    "startDate": "Sep 4, 2023",
+    "endDate": "Sep 17, 2023",
+    "status": "complete",
+    "description": "The course provides a comprehensive introduction to modern IT operations techniques and tools that are relevant in today's digital landscape."
+  },
+  {
+    "title": "Web Development and Web Technology",
+    "points": 55,
+    "startDate": "Sep 18, 2023",
+    "endDate": "Dec 3, 2023",
+    "status": "complete",
+    "description": "The course 'Web Development and Web Technology' offers a foundational overview of web development, focusing on essential technologies like HTML/CSS for structuring and styling, JavaScript for interactivity, backend technologies for server-side programming, and responsive design for multi-device compatibility."
+  },
+  {
+    "title": "Advanced Frontend Development and TypeScript",
+    "points": 40,
+    "startDate": "Dec 4, 2023",
+    "endDate": "Feb 18, 2024",
+    "status": "complete",
+    "description": "The course 'Advanced Frontend Development and TypeScript' delves into sophisticated web development techniques, focusing on TypeScript for enhanced JavaScript programming. It covers advanced concepts in frontend frameworks, state management, and modern web application architecture, equipping students with skills to build complex, scalable, and type-safe web applications."
+  },
+  {
+    "title": "Project Methodology and Agile Methods",
+    "points": 15,
+    "startDate": "Jan 8, 2024",
+    "endDate": "Feb 18, 2024",
+    "status": "complete",
+    "description": "The course 'Project Methodology and Agile Practices' focuses on project management techniques with an emphasis on agile methodologies. It explores frameworks such as Scrum and Kanban, providing students with the skills to manage projects efficiently and adapt to changing requirements in dynamic environments."
+  },
+  {
+    "title": "UX, Usability and Accessibility",
+    "points": 15,
+    "startDate": "Feb 19, 2024",
+    "endDate": "Mar 10, 2024",
+    "status": "complete",
+    "description": "The course 'UX, Usability, and Accessibility' introduces students to the principles of user experience design, focusing on creating intuitive and accessible digital products. It covers user research methods, interface design principles, usability testing techniques, and accessibility guidelines. Additionally, the course incorporates Figma as a key tool for designing and prototyping user-centered experiences, enabling students to create inclusive designs effectively."
+  },
+  {
+    "title": "React",
+    "points": 45,
+    "startDate": "Mar 4, 2024",
+    "endDate": "May 12, 2024",
+    "status": "complete",
+    "description": "The 'React' course offers an in-depth introduction to the React library, covering key concepts like components, state management, and hooks. It also includes advanced techniques for building efficient web applications, with hands-on projects to apply skills in real-world scenarios."
+  },
+  {
+    "title": "Backend Development and APIs",
+    "points": 60,
+    "startDate": "May 13, 2024",
+    "endDate": "Sep 29, 2024",
+    "status": "complete",
+    "description": "This course deepens students' understanding and ability to develop backends for websites and applications. It enhances comprehension of JavaScript in backend development and explores data storage/database implementation, as well as how to expose data to the frontend through APIs. The course also expands students' knowledge of using TypeScript in backend development. Key tools and technologies covered include Node.js, Express, PostgreSQL, MongoDB, REST, and GraphQL, providing a comprehensive overview of modern backend development practices."
+  },
+  {
+    "title": "AI in Fullstack Development",
+    "points": 15,
+    "startDate": "Sep 30, 2024",
+    "endDate": "Oct 20, 2024",
+    "status": "complete",
+    "description": "The course provides a comprehensive overview of AI, spanning from fundamental theory to practical application in programming and full stack development. It covers various aspects of AI, including machine learning, neural networks, and different AI models, offering students a thorough understanding of how AI can be integrated into and enhance technical solutions. The course also focuses on the key considerations full stack developers need to address when implementing AI in their projects."
+  },
+  {
+    "title": "Cloud, CI/CD and Work Methodology",
+    "points": 20,
+    "startDate": "Oct 21, 2024",
+    "endDate": "Nov 17, 2024",
+    "status": "complete",
+    "description": "The course 'Cloud, CI/CD, and Work Methodology' provides an overview of cloud computing and the CI/CD (Continuous Integration and Continuous Delivery) methodology. It covers essential concepts of cloud services and deployment strategies while teaching students to implement CI/CD pipelines for efficient software development. The course emphasizes practical applications, enabling students to integrate cloud solutions with CI/CD practices effectively."
+  },
+  {
+    "title": "Vue.js",
+    "points": 25,
+    "startDate": "Nov 18, 2024",
+    "endDate": "Dec 22, 2024",
+    "status": "ongoing",
+    "description": "The course 'Vue.js' provides students with the skills to develop applications using the Vue.js JavaScript framework. It covers essential concepts such as component creation, state management, and reactivity, enabling students to build dynamic user interfaces effectively. The course emphasizes practical application, ensuring students can implement their knowledge in real-world projects."
+  },
+  {
+    "title": "Internship (LIA)",
+    "points": 110,
+    "startDate": "Dec 23, 2024",
+    "endDate": "May 25, 2025",
+    "status": "upcoming",
+    "description": "This course provides students with practical, job-preparatory skills through hands-on application of their knowledge in a professional setting. It aims to deepen students' understanding of the industry by engaging them in real-world projects. Upon completion, students will have practiced and developed the competencies gained throughout their education, specifically preparing them to work as JavaScript full stack developers. This immersive experience bridges the gap between theoretical knowledge and practical application in the field."
+  },
+  {
+    "title": "Thesis Project",
+    "points": 20,
+    "startDate": "May 26, 2025",
+    "endDate": "Jun 22, 2025",
+    "status": "upcoming",
+    "description": "The 'Examensarbete' (Degree Project) course allows students to showcase their skills in JavaScript full stack development by undertaking a comprehensive project assignment. This course involves planning, implementation, and delivery of a project, typically for an external company or organization. Students enhance their research abilities by exploring new technologies relevant to their project goals. Ultimately, the degree project serves as a bridge between academic learning and professional practice, preparing students for their future careers as full stack developers."
+  }
+]
