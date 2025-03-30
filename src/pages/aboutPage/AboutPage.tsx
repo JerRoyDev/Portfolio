@@ -85,7 +85,7 @@ const AboutPage = () => {
           <div className='flex justify-end mt-2'>
             <a
               className='italic animate-pulse md:hover:scale-105 md:hover:animate-none'
-              href='/cv.pdf'
+              href='/jerry_olsson_cv.pdf'
               target='_blank'
               rel='noopener noreferrer'
             >
