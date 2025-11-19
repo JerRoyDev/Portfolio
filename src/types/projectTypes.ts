@@ -17,7 +17,5 @@ export interface ProjectCardProps {
 }
 
 export interface ProjectModalProps {
-  isOpen: boolean;
-  toggleModal: () => void;
   data: ProjectData;
 }

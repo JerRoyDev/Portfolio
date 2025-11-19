@@ -10,10 +10,12 @@ import {
   CircleDot,
 } from 'lucide-react';
 
-import { allSkills } from '../../components/AllSkills';
-import { Course } from '../../types/Course';
-import courses from '../../data/courses.json';
-import Skill from '../../components/Skill';
+import { allSkills } from '@/components/AllSkills';
+import { Course } from '@/types/Course';
+import courses from '@/data/courses.json';
+import Skill from '@/components/Skill';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Badge } from '@/components/ui/badge';
 
 const updateCourseStatus = (courses: Course[]) => {
   const today = new Date();
@@ -58,116 +60,134 @@ const completedPoints = updatedCourses
 
 const AboutPage = () => {
   return (
-    <div className='max-w-4xl p-6 mx-auto bg-background text-text'>
+    <div className='max-w-4xl p-6 mx-auto bg-background text-foreground'>
       <header className='mb-8 text-center'>
         <h1 className='mb-2 text-3xl font-bold text-accent'>Jerry Olsson</h1>
-        <p className='text-xl text-secondary'>Software Developer</p>
+        <p className='text-xl text-muted-foreground'>Software Developer</p>
       </header>
 
-      <main>
+      <main className='space-y-6'>
         {/* ABOUT ME */}
-        <section className='p-6 mb-6 rounded-lg shadow-md bg-primary'>
-          <h2 className='flex items-center mb-4 text-2xl font-semibold text-accent'>
-            <User className='mr-2 text-accent' /> About Me
-          </h2>
-          <p className='text-text'>
-            I'm a creative and problem-solving software developer student from
-            Piteå, Sweden, living with my wife and our two children. With a
-            background in construction and industry, as well as a few years
-            volunteering in Tanzania, I've also always had a deep interest in
-            technology and IT. Now, I've taken the step to pursue what I'm truly
-            passionate about, developing my skills in the tech world. <br />
-            <br /> I consider myself a positive, curious individual who loves
-            learning new things and grows with challenges. I'm excited about
-            growing further and contributing wherever I can.
-          </p>
+        <Card>
+          <CardHeader>
+            <CardTitle className='flex items-center text-2xl font-semibold text-accent'>
+              <User className='mr-2 text-accent' /> About Me
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <p className='text-muted-foreground leading-relaxed'>
+              I'm a creative and problem-solving software developer student from
+              Piteå, Sweden, living with my wife and our two children. With a
+              background in construction and industry, as well as a few years
+              volunteering in Tanzania, I've also always had a deep interest in
+              technology and IT. Now, I've taken the step to pursue what I'm
+              truly passionate about, developing my skills in the tech world.{' '}
+              <br />
+              <br /> I consider myself a positive, curious individual who loves
+              learning new things and grows with challenges. I'm excited about
+              growing further and contributing wherever I can.
+            </p>
 
-          <div className='flex justify-end mt-2'>
-            <a
-              className='italic animate-pulse md:hover:scale-105 md:hover:animate-none'
-              href='/jerry_olsson_cv.pdf'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              Check out my CV
-            </a>
-          </div>
-        </section>
+            <div className='flex justify-end mt-4'>
+              <a
+                className='italic text-accent hover:underline animate-pulse md:hover:scale-105 md:hover:animate-none transition-all'
+                href='/jerry_olsson_cv.pdf'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Check out my CV
+              </a>
+            </div>
+          </CardContent>
+        </Card>
 
         {/* SKILLS */}
-        <section className='p-6 mb-6 rounded-lg shadow-md bg-primary'>
-          <h2 className='flex items-center mb-4 text-2xl font-semibold text-accent'>
-            <Code className='mr-2 text-accent' /> Skills
-          </h2>
-          <ul className='grid grid-cols-2 gap-4'>
-            {allSkills.map((skill, index) => (
-              <li
-                key={index}
-                className='flex p-2 text-sm rounded bg-background text-text'
-              >
-                <div className='flex justify-center w-5 mx-2 shrink-0'>
-                  <Skill skill={skill} />
+        <Card>
+          <CardHeader>
+            <CardTitle className='flex items-center text-2xl font-semibold text-accent'>
+              <Code className='mr-2 text-accent' /> Skills
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className='grid grid-cols-2 gap-4 sm:grid-cols-3'>
+              {allSkills.map((skill, index) => (
+                <div
+                  key={index}
+                  className='flex items-center p-3 text-sm rounded-md bg-secondary/10 border border-border'
+                >
+                  <div className='flex justify-center w-6 mx-2 shrink-0 text-accent'>
+                    <Skill skill={skill} />
+                  </div>
+                  <span className='font-medium'>{skill}</span>
                 </div>
-                {skill}
-              </li>
-            ))}
-          </ul>
-        </section>
+              ))}
+            </div>
+          </CardContent>
+        </Card>
 
         {/* EDUCATION */}
-        <section className='p-6 mb-6 rounded-lg shadow-md bg-primary'>
-          <h2 className='flex items-center mb-4 text-2xl font-semibold text-accent'>
-            <GraduationCap className='mr-2 text-accent' /> Education
-          </h2>
-          <ul className='space-y-4'>
-            <li>
-              <div className='flex justify-between'>
-                <div>
-                  <h3 className='font-semibold text-text'>
-                    Fullstack Developer Program
-                  </h3>
-                  <p className='text-secondary'>Chas Academy, Ongoing</p>
+        <Card>
+          <CardHeader>
+            <CardTitle className='flex items-center text-2xl font-semibold text-accent'>
+              <GraduationCap className='mr-2 text-accent' /> Education
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className='space-y-6'>
+              <div>
+                <div className='flex flex-col sm:flex-row justify-between sm:items-center mb-4'>
+                  <div>
+                    <h3 className='text-lg font-semibold'>
+                      Fullstack Developer Program
+                    </h3>
+                    <p className='text-muted-foreground'>
+                      Chas Academy, Ongoing
+                    </p>
+                  </div>
+                  <Badge variant='outline' className='mt-2 sm:mt-0 w-fit'>
+                    Completed: {completedPoints}/{totalPoints} p
+                  </Badge>
                 </div>
-                <div className=''>
-                  <p className='text-md text-text'>
-                    Completed: {completedPoints}/{totalPoints}
-                  </p>
+                <div className='space-y-3'>
+                  {updatedCourses.map((course, index) => (
+                    <div
+                      key={index}
+                      className='flex items-center p-2 rounded-md hover:bg-secondary/10 transition-colors group'
+                    >
+                      {/* Status Icon */}
+                      <div className='mr-3'>
+                        {courseStatusIcon(course.status)}
+                      </div>
+                      {/* Course details */}
+                      <div className='flex-1'>
+                        <span className='font-medium block'>
+                          {course.title}
+                        </span>
+                        <p className='text-xs text-muted-foreground'>
+                          {course.startDate} - {course.endDate}
+                        </p>
+                      </div>
+                      <span className='text-sm font-semibold text-muted-foreground group-hover:text-accent transition-colors'>
+                        {course.points} p
+                      </span>
+                    </div>
+                  ))}
                 </div>
               </div>
-              <ul className='mt-4'>
-                {updatedCourses.map((course, index) => (
-                  <li key={index} className='flex mb-2 group'>
-                    {/* Status Icon */}
-                    <div>{courseStatusIcon(course.status)}</div>
-                    {/* Course details */}
-                    <div className='flex-1 group-hover:brightness-150 '>
-                      <span className='font-medium text-text'>
-                        {course.title}
-                      </span>
-                      <p className='text-sm text-secondary '>
-                        {course.startDate} - {course.endDate}
-                      </p>
-                    </div>
-                    <span className='ml-auto text-secondary brightness-125 group-hover:brightness-200'>
-                      {course.points} p
-                    </span>
-                  </li>
-                ))}
-              </ul>
-            </li>
-          </ul>
-        </section>
+            </div>
+          </CardContent>
+        </Card>
       </main>
 
-      <footer className='mt-8 text-center'>
-        <h2 className='mb-4 text-2xl font-semibold text-accent'>
+      <footer className='mt-12 text-center'>
+        <h2 className='mb-6 text-2xl font-semibold text-accent'>
           Get in Touch
         </h2>
-        <div className='flex justify-center space-x-4'>
+        <div className='flex justify-center gap-6'>
           {/* Email */}
           <a
             href='mailto:jerryroyolsson@gmail.com'
-            className='transition-colors duration-200 text-text hover:text-red-500'
+            className='p-3 rounded-full bg-card hover:bg-accent hover:text-white transition-all duration-300 shadow-md'
           >
             <Mail size={24} />
           </a>
@@ -175,7 +195,7 @@ const AboutPage = () => {
           {/* GitHub */}
           <a
             href='https://github.com/JerRoyDev/'
-            className='transition-colors duration-200 text-text hover:text-gray-700'
+            className='p-3 rounded-full bg-card hover:bg-accent hover:text-white transition-all duration-300 shadow-md'
           >
             <Code2 size={24} />
           </a>
@@ -183,7 +203,7 @@ const AboutPage = () => {
           {/* LinkedIn */}
           <a
             href='https://www.linkedin.com/in/jerry-olsson-0b1a4228b/'
-            className='transition-colors duration-200 text-text hover:text-blue-600'
+            className='p-3 rounded-full bg-card hover:bg-accent hover:text-white transition-all duration-300 shadow-md'
           >
             <Linkedin size={24} />
           </a>

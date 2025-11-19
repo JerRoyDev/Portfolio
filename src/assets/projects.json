@@ -1,5 +1,142 @@
 [
   {
+    "title": "Next.js Web app starter template",
+    "description": "A robust and reusable boilerplate for quickly starting future web apps.",
+    "src": "project-images/nextjs-auth-template.png",
+    "alt": "Next.js Auth Template",
+    "repoURL": "#",
+    "pageURL": "#",
+    "status": "incomplete",
+    "tools": [
+      "next.js",
+      "better-auth",
+      "typescript",
+      "tailwind css",
+      "shadcn ui",
+      "prisma"
+    ],
+    "category": "Side Project",
+    "role": "Architect and Developer"
+  },
+  {
+    "title": "Leadvio (AI-driven Campaign Management)",
+    "description": "Development of AI-driven systems for personalized prospect communication, focusing on building and optimizing the foundation for next-generation campaign tools.",
+    "src": "project-images/leadvio-ai-campaign.png",
+    "alt": "Leadvio AI Campaign Management",
+    "repoURL": "#",
+    "pageURL": "https://www.leadvio.se/",
+    "status": "complete",
+    "tools": [
+      "next.js",
+      "react",
+      "openai api",
+      "trpc",
+      "prisma",
+      "mongodb",
+      "tailwindcss"
+    ],
+    "category": "Client Project",
+    "role": "Fullstack Developer"
+  },
+  {
+    "title": "Offertu",
+    "description": "A reusable boilerplate for a CRM/lead management platform, built from scratch.",
+    "src": "project-images/offertu.png",
+    "alt": "Offertu",
+    "repoURL": "https://github.com/JerRoyDev/offertu",
+    "pageURL": "https://offertu.vercel.app/",
+    "status": "complete",
+    "tools": [
+      "next.js",
+      "typescript",
+      "tailwindcss",
+      "shadcn ui",
+      "prisma",
+      "mongodb",
+      "zod",
+      "nextauth.js",
+      "recharts",
+      "brevo api"
+    ],
+    "category": "Client Project (intern)",
+    "role": "Collaborator"
+  },
+  {
+    "title": "Inte-Bara-Brevo",
+    "description": "A platform for creating, managing, and embedding customizable signup widgets on external websites.",
+    "src": "project-images/inte-bara-brevo.png",
+    "alt": "Inte-Bara-Brevo",
+    "repoURL": "https://github.com/JerRoyDev/inte-bara-brevo",
+    "pageURL": "https://inte-bara-brevo.vercel.app/",
+    "status": "complete",
+    "tools": [
+      "next.js",
+      "react",
+      "esbuild",
+      "@r2wc/react-to-web-component",
+      "typescript",
+      "tailwindcss",
+      "prisma",
+      "mongodb"
+    ],
+    "category": "Client Project (intern)",
+    "role": "Lead Developer"
+  },
+  {
+    "title": "LibreChat - Semurai",
+    "description": "Deployment and configuration of a self-hosted AI chat (LibreChat) for internal use.",
+    "src": "project-images/librechat.png",
+    "alt": "LibreChat",
+    "repoURL": "#",
+    "pageURL": "https://www.librechat.ai/",
+    "status": "complete",
+    "tools": [
+      "docker",
+      "docker compose",
+      "digital ocean",
+      "cloudflare",
+      "mongodb atlas",
+      "openai api",
+      "anthropic api"
+    ],
+    "category": "Client Project (intern)",
+    "role": "DevOps Lead"
+  },
+  {
+    "title": "Leadvio",
+    "description": "Extended an existing external LinkedIn automation tool built on the T3 stack.",
+    "src": "project-images/leadvio.png",
+    "alt": "Leadvio",
+    "repoURL": "#",
+    "pageURL": "https://www.leadvio.se/",
+    "status": "complete",
+    "tools": [
+      "next.js",
+      "trpc",
+      "shadcn ui",
+      "mongodb",
+      "prisma",
+      "clerk"
+    ],
+    "category": "Client Project (intern)",
+    "role": "Collaborator"
+  },
+  {
+    "title": "Leadvio Chrome Extension",
+    "description": "A browser extension for secure authentication and linking Leadvio accounts with LinkedIn/Google.",
+    "src": "project-images/leadvio-extension.png",
+    "alt": "Leadvio Chrome Extension",
+    "repoURL": "#",
+    "pageURL": "https://chromewebstore.google.com/detail/leadvio-authenticate/pekaigfgacnbelidmkojkphmpbicefnf",
+    "status": "complete",
+    "tools": [
+      "vanilla javascript",
+      "chrome extension apis"
+    ],
+    "category": "Client Project (intern)",
+    "role": "Lead Developer"
+  },
+  {
     "title": "This Portfolio",
     "description": "Yes, you're already here! This portfolio you're exploring is a project in itself, built with React and Tailwind, and it's designed to showcase some of my other work.",
     "src": "project-images/this_portfolio.jpeg",
@@ -12,8 +149,8 @@
       "react",
       "tailwind"
     ],
-    "category": "side project",
-    "role": "Solo project"
+    "category": "Side Project",
+    "role": "Solo Developer"
   },
   {
     "title": "Glossy",
@@ -31,8 +168,8 @@
       "mongodb",
       "tailwind"
     ],
-    "category": "side project",
-    "role": "Solo project"
+    "category": "Side Project",
+    "role": "Solo Developer"
   },
   {
     "title": "Aurora Agile",
@@ -46,8 +183,8 @@
       "javascript",
       "react"
     ],
-    "category": "school project",
-    "role": "Collaborative project"
+    "category": "School Project",
+    "role": "Collaborator"
   },
   {
     "title": "Kanban Board",
@@ -61,8 +198,8 @@
       "javascript",
       "react"
     ],
-    "category": "school project",
-    "role": "Solo project"
+    "category": "School Project",
+    "role": "Solo Developer"
   },
   {
     "title": "Quire",
@@ -75,8 +212,8 @@
     "tools": [
       "javascript"
     ],
-    "category": "school project",
-    "role": "Collaborative project"
+    "category": "School Project",
+    "role": "Collaborator"
   },
   {
     "title": "The Dashboard",
@@ -89,8 +226,8 @@
     "tools": [
       "javascript"
     ],
-    "category": "school project",
-    "role": "Solo project"
+    "category": "School Project",
+    "role": "Solo Developer"
   },
   {
     "title": "Mortgage calculator",
@@ -103,8 +240,8 @@
     "tools": [
       "typescript"
     ],
-    "category": "side project",
-    "role": "Solo project"
+    "category": "School Project",
+    "role": "Solo Developer"
   },
   {
     "title": "Rock Paper Scissors",
@@ -117,8 +254,8 @@
     "tools": [
       "javascript"
     ],
-    "category": "school project",
-    "role": "Solo project"
+    "category": "School Project",
+    "role": "Solo Developer"
   },
   {
     "title": "My first Portfolio",
@@ -132,7 +269,7 @@
       "html",
       "javascript"
     ],
-    "category": "school project",
-    "role": "Solo project"
+    "category": "School Project",
+    "role": "Solo Developer"
   }
 ]

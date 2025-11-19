@@ -1,23 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@config "../tailwind.config.js";
 
-:root {
-  --color-primary: #262e34;
+@theme {
+  --color-primary: #b45515;
   --color-secondary: #4c5154;
   --color-accent: #b45515;
   --color-background: #141414;
   --color-text: #afc1cc;
 }
-
-/* html,
-body,
-#root {
-  min-height: 100svh;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-} */
 
 body {
   display: flex;
@@ -28,4 +18,73 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100svh;
+}
+
+@layer base {
+  :root {
+    --background: #141414;
+    --foreground: #afc1cc;
+    --card: #161a1d;
+    --card-foreground: #afc1cc;
+    --popover: #262e34;
+    --popover-foreground: #afc1cc;
+    --primary: #b45515;
+    --primary-foreground: #141414;
+    --secondary: #4c5154;
+    --secondary-foreground: #afc1cc;
+    --muted: #585d61;
+    --muted-foreground: #afc1cc;
+    --accent: #b45515;
+    --accent-foreground: #141414;
+    --destructive: #b45515;
+    --destructive-foreground: #141414;
+    --border: #4c5154;
+    --input: #4c5154;
+    --ring: #b45515;
+    --chart-1: #b45515;
+    --chart-2: #4c5154;
+    --chart-3: #262e34;
+    --chart-4: #afc1cc;
+    --chart-5: #141414;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: #262e34;
+    --foreground: #afc1cc;
+    --card: #141414;
+    --card-foreground: #afc1cc;
+    --popover: #141414;
+    --popover-foreground: #afc1cc;
+    --primary: #b45515;
+    --primary-foreground: #141414;
+    --secondary: #4c5154;
+    --secondary-foreground: #afc1cc;
+    --muted: #4c5154;
+    --muted-foreground: #afc1cc;
+    --accent: #b45515;
+    --accent-foreground: #141414;
+    --destructive: #b45515;
+    --destructive-foreground: #141414;
+    --border: #4c5154;
+    --input: #4c5154;
+    --ring: #b45515;
+    --chart-1: #b45515;
+    --chart-2: #4c5154;
+    --chart-3: #262e34;
+    --chart-4: #afc1cc;
+    --chart-5: #141414;
+  }
+}
+
+
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
 }
