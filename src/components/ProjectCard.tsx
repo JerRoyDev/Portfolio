@@ -1,4 +1,3 @@
-import Skill from './Skill';
 import { ProjectCardProps } from '@/types/projectTypes';
 import ProjectModal from '@/components/ProjectModal';
 import {
