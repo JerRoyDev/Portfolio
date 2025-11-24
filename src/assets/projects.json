@@ -39,6 +39,26 @@
     "role": "Fullstack Developer"
   },
   {
+    "title": "BlueRedGold",
+    "description": "A modern and responsive company website with blog functionality, built during an internship. The project focused on integrating a headless CMS (Sanity) so the client could manage articles, blog posts, and recipe content independently.",
+    "src": "project-images/blueredgold.svg",
+    "alt": "BlueRedGold Company Website",
+    "repoURL": "https://github.com/JerRoyDev/blue-red-gold",
+    "pageURL": "https://blueredgold.vercel.app/",
+    "status": "complete",
+    "tools": [
+      "next.js",
+      "typescript",
+      "Sanity CMS",
+      "tailwind css",
+      "shadcn ui",
+      "radix ui",
+      "framer motion"
+    ],
+    "category": "Client Project (intern)",
+    "role": "Fullstack Developer"
+  },
+  {
     "title": "Offertu",
     "description": "A reusable boilerplate for a CRM/lead management platform, built from scratch.",
     "src": "project-images/offertu.png",
